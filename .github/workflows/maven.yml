@@ -32,5 +32,5 @@ jobs:
       run: mvn clean install
       
     - name: Build Docker image
-      run: docker bulid -t docker-file .
+      run: docker build . -t docker-file
 
