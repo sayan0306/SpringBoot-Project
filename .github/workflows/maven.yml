@@ -31,6 +31,4 @@ jobs:
     - name: create docker file
       run: mvn clean install
       
-    - name: Build Docker image
-      run: docker build . -t docker-file
 
