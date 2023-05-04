@@ -30,4 +30,7 @@ jobs:
       
     - name: create docker file
       run: mvn clean install
+      
+    - name: Build Docker image
+      run: docker bulid -t docker-file .
 
